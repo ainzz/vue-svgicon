@@ -21,11 +21,11 @@ export default {
         name: String,
         width: {
             type: String,
-            default: ''
+            default: '21'
         },
         height: {
             type: String,
-            default: ''
+            default: '21'
         },
         scale: String,
         dir: String,
