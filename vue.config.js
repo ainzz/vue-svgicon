@@ -27,6 +27,7 @@ let demoConfig = {
             .entry('app')
             .delete('./src/main.ts')
             .add('./src/main.tsx')
+            .resolve.symlinks(false)
         config.entry('style').add('./src/style/app.scss')
     }
 }

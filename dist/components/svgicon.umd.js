@@ -120,12 +120,12 @@ __webpack_require__.r(__webpack_exports__);
 // EXTERNAL MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 var setPublicPath = __webpack_require__("1eb2");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"8ac48580-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SvgIcon.vue?vue&type=template&id=30190379&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{class:_vm.clazz,style:(_vm.style),attrs:{"version":"1.1","viewBox":_vm.box},domProps:{"innerHTML":_vm._s(_vm.path)},on:{"click":_vm.onClick}})}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"8ac48580-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SvgIcon.vue?vue&type=template&id=4f1a7e78&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{class:_vm.clazz,attrs:{"version":"1.1","viewBox":_vm.box,"width":_vm.width,"height":_vm.height},domProps:{"innerHTML":_vm._s(_vm.path)},on:{"click":_vm.onClick}})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/SvgIcon.vue?vue&type=template&id=30190379&
+// CONCATENATED MODULE: ./src/components/SvgIcon.vue?vue&type=template&id=4f1a7e78&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SvgIcon.vue?vue&type=script&lang=js&
 //
@@ -149,11 +149,11 @@ var isStroke = false;
     name: String,
     width: {
       type: String,
-      default: ''
+      default: '21'
     },
     height: {
       type: String,
-      default: ''
+      default: '21'
     },
     scale: String,
     dir: String,
@@ -228,8 +228,8 @@ var isStroke = false;
       return this.getValidPathData(pathData);
     },
     box: function box() {
-      var width = this.width || 16;
-      var height = this.width || 16;
+      var width = this.width || 21;
+      var height = this.width || 21;
 
       if (this.iconData) {
         if (this.iconData.viewBox) {

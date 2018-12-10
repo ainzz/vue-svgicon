@@ -53,6 +53,7 @@
         "yargs": "^12.0.1"
     },
     "devDependencies": {
+        "@babel/runtime-corejs2": "^7.2.0",
         "@types/chai": "^4.1.0",
         "@types/fs-plus": "^3.0.0",
         "@types/glob": "^5.0.35",
