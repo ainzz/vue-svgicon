@@ -1,5 +1,5 @@
 <template>
-    <svg version="1.1" :class="clazz" :viewBox="box" v-html="path" :style="style" @click="onClick"></svg>
+    <svg version="1.1" :class="clazz" :viewBox="box" v-html="path" :width="width" :height="height" @click="onClick"></svg>
 </template>
 
 <script>
@@ -105,8 +105,8 @@ export default {
         },
 
         box() {
-            let width = this.width || 16
-            let height = this.width || 16
+            let width = this.width || 21
+            let height = this.width || 21
 
             if (this.iconData) {
                 if (this.iconData.viewBox) {
